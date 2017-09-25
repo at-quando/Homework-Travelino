@@ -1,0 +1,28 @@
+@media screen and (max-width: 1441px){
+  
+}
+
+@media screen and (max-width: 1169px){
+  .container{
+    width: 940px;
+  }
+}
+
+@media screen and (max-width: 979px){
+  .container {
+    width: 724px;
+  }
+  .navbar-item-search {
+    padding: 0 12px 0 20px !important;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .container{
+    width: 100%;
+    padding: 10px;
+  }
+  .navbar-item{
+   display: none;
+  }
+}
