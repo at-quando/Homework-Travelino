@@ -1,5 +1,5 @@
 .header{
-  padding: 30px 0;
+  padding: 30px 0 0 0;
 }
 .header-box{
   .brand-box{
@@ -61,6 +61,7 @@
             position: relative;
            }
           .sub-navbar-list{
+            z-index: 10;
             position: absolute;
             width: 100%;
             top: 70px;
