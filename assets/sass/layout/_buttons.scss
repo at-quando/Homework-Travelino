@@ -1,0 +1,37 @@
+.btn{
+  border: 1px solid grey;
+  float: left;
+  margin-right: 1.5px;
+  background-color: $color-opalescent;
+  text-align: center;
+  .arrow{
+    width: 50px;
+    height: 53px;
+    background-size: cover;
+  }
+}
+.btn:hover{
+  background-color: $color-yellow;
+}
+.camera-next{
+  @extend .btn;
+  .arrow-next{
+    @extend .arrow;
+    background: url(img/nav-slider-next.png) no-repeat;
+  }
+  .arrow-next:hover{
+    @extend .arrow;
+    background: url(img/nav-slider-next-hover.png) no-repeat;
+  }
+}
+.camera-prev{
+  @extend .btn;
+  .arrow-prev{
+    @extend .arrow;
+    background: url(img/nav-slider-prev.png) no-repeat;
+  }
+  .arrow-prev:hover{
+    @extend .arrow;
+    background: url(img/nav-slider-prev-hover.png) no-repeat;
+  }
+}
