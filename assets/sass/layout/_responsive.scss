@@ -2,7 +2,7 @@
   
 }
 
-@media screen and (max-width: 1169px){
+@media screen and (max-width: 1199px){
   .container{
     width: 940px;
   }
@@ -15,14 +15,42 @@
   .navbar-item-search {
     padding: 0 12px 0 20px !important;
   }
+
 }
 
 @media screen and (max-width: 767px){
   .container{
     width: 100%;
-    padding: 10px;
+    padding: 20px;
   }
   .navbar-item{
    display: none;
+  }
+  .news-items{
+    margin-bottom: 60px;
+    width: 100% !important;
+    .img-box{
+      text-align: center;
+      padding-top: 10px;
+    }
+    p{
+    }
+  }
+  .articles-large-box{
+    width: 100% !important;
+  }
+  .articles-small-box{
+    width: 100% !important;
+  }
+  .footer{
+    padding-top: 30px !important;
+  }
+  .copyright-footer{
+    width: 100% !important;
+    text-align: center;
+  }
+  .info-item{
+    margin-top: 30px;
+    width: 100% !important;
   }
 }
