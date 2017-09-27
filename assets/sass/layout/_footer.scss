@@ -1,0 +1,48 @@
+.footer {
+  background-color: $color-footer;
+  padding: 98px 0 40px;
+  .item-footer{
+    width: 50%;
+    float: left;
+  }
+  .copyright-footer{
+    padding-top: 5px;
+    padding-left: 30px;
+    @extend .item-footer; 
+    span{
+      padding-left: 5px;
+      font: 300 14px/1em 'font2';
+      color: #d9bb4b;
+      text-transform: uppercase;
+    }
+  }
+  .information-footer{
+    @extend .item-footer; 
+    .info-item{
+      width: calc(100%/3);
+      float: left;
+      padding-left: 30px;
+      h4{
+        color: #FFFFFF;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 1em;
+        margin-bottom: 20px;
+        letter-spacing: 0;
+      }
+      .menu-footer{
+        li{
+          background: url(img/cat-arrow.png) no-repeat 0 9px;;
+          line-height: 23px;
+          padding-left: 31px;
+          a{
+            font: 14px/33px Arial, "Helvetica Neue",Helvetica, sans-serif;
+            color: #787878;
+            text-transform: none;
+            letter-spacing: 0;
+          }
+        }
+      }
+    }
+  }
+}
